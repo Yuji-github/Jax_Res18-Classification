@@ -14,8 +14,12 @@ Constructing deep learning architectures with many layers is expensive as a lot 
 Binary Images:
 https://drive.google.com/drive/folders/1RoBdT1k3JI4QMNXOkAx46DxAy-fxMiyO?usp=sharing
 
+Sample Image of Cat: 
+<img src="./0/1.png" alt="demo cat" title="demo cat">
+
+
 ## 2.Demo
-The video shows the actual execution of Cifer10 with Jax and Flax.
+The video shows the actual execution with Jax and Flax.
 
 https://user-images.githubusercontent.com/52090852/182778858-e51c2f0c-5f53-4ffb-85e0-b63ed5130408.mp4
 
