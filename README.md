@@ -14,9 +14,9 @@ Constructing deep learning architectures with many layers is expensive as a lot 
 Binary Images:
 https://drive.google.com/drive/folders/1RoBdT1k3JI4QMNXOkAx46DxAy-fxMiyO?usp=sharing
 
-Sample Image of Cats and Dogs: 
-<img src="./0/cat.1.jpg" alt="demo cat" title="demo cat">
-<img src="./1/dog.1.jpg" alt="demo dog" title="demo dog">
+Sample Image of Cats and Dogs:<br>
+<img src="./0/cat.1.jpg" alt="demo cat" title="demo cat"><br>
+<img src="./1/dog.1.jpg" alt="demo dog" title="demo dog"><br>
 
 
 ## 2.Demo
