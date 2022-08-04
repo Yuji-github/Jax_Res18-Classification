@@ -25,5 +25,10 @@ The video shows the actual execution with Jax and Flax.
 
 https://user-images.githubusercontent.com/52090852/182778858-e51c2f0c-5f53-4ffb-85e0-b63ed5130408.mp4
 
-
 ## 3.Results
+| Model | Total Time | Epoch | Test Accuracy |
+|:---|:---:|:---:|---:|
+|Flax & Jax | 1200 sec | 2 | 0.609 |
+|Flax & Jax | 130 sec | 5 | 0.662 |
+
+There is a huge gap between the results. The first row shows that the total time is over 1200 seconds. On the other hand, the second row shows that the total time is around 130 seconds. This is Flax and Jax using Just-In-Time compilation. Thus, the first row (the first run) transferred all the data on the GPU. Then, from the second execution, the data stays on the GPU and reduces the total execution time.
