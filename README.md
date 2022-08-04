@@ -35,4 +35,4 @@ There is a huge gap between the results. The first row shows that the total time
 
 ## 5.Issues
 The experiment uses around 160 MB of data for training. However, the usage of the RAM on the GPU achieved 13.99 GB (assume the maximum) easily when I used ResNet18. Thus, we need to be careful of the usage when we work with Flax and Jax, and we should keep in mind that the first execution will be slower in our minds.  
-<img src="./src/gpu.png" alt="demo gpu" title="demo gpu">
+<img src="./src/gpu.png" alt="demo gpu" title="demo gpu" height="256" width="256">
