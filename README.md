@@ -13,8 +13,7 @@ Constructing deep learning architectures with many layers is expensive as a lot 
 
 
 ## 2.Dataset
-Binary Images: [Link](https://drive.google.com/drive/folders/1RoBdT1k3JI4QMNXOkAx46DxAy-fxMiyO?usp=sharing)
-
+Binary Images: [Link](https://drive.google.com/drive/folders/1RoBdT1k3JI4QMNXOkAx46DxAy-fxMiyO?usp=sharing) Cats 70MB, Dog 90MB <br>
 Sample Image of Cats [0] and Dogs [1]:<br>
 <img src="./0/cat.1.jpg" alt="demo cat" title="demo cat" height="128" width="128">
 <img src="./1/dog.2.jpg" alt="demo dog" title="demo dog" height="128" width="128"><br>
