@@ -17,8 +17,8 @@ Binary Images:
 https://drive.google.com/drive/folders/1RoBdT1k3JI4QMNXOkAx46DxAy-fxMiyO?usp=sharing
 
 Sample Image of Cats and Dogs:<br>
-<img src="./0/cat.1.jpg" alt="demo cat" title="demo cat" height="48" width="48"><br>
-<img src="./1/dog.2.jpg" alt="demo dog" title="demo dog" height="48" width="48"><br>
+<img src="./0/cat.1.jpg" alt="demo cat" title="demo cat" height="64" width="64">
+<img src="./1/dog.2.jpg" alt="demo dog" title="demo dog" height="64" width="64"><br>
 
 
 ## 3.Demo
