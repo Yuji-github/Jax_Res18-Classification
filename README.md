@@ -11,15 +11,17 @@ Constructing deep learning architectures with many layers is expensive as a lot 
 - Torch
 - Numpy
 
+
+## 2.Dataset
 Binary Images:
 https://drive.google.com/drive/folders/1RoBdT1k3JI4QMNXOkAx46DxAy-fxMiyO?usp=sharing
 
 Sample Image of Cats and Dogs:<br>
-<img src="./0/cat.1.jpg" alt="demo cat" title="demo cat"><br>
-<img src="./1/dog.1.jpg" alt="demo dog" title="demo dog"><br>
+<img src="./0/cat.1.jpg" alt="demo cat" title="demo cat" height="48" width="48"><br>
+<img src="./1/dog.2.jpg" alt="demo dog" title="demo dog" height="48" width="48"><br>
 
 
-## 2.Demo
+## 3.Demo
 The video shows the actual execution with Jax and Flax.
 
 https://user-images.githubusercontent.com/52090852/182778858-e51c2f0c-5f53-4ffb-85e0-b63ed5130408.mp4
