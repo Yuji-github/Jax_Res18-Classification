@@ -15,9 +15,9 @@ Constructing deep learning architectures with many layers is expensive as a lot 
 ## 2.Dataset
 Binary Images: [Link](https://drive.google.com/drive/folders/1RoBdT1k3JI4QMNXOkAx46DxAy-fxMiyO?usp=sharing)
 
-Sample Image of Cats[0] and Dogs[1]:<br>
-<img src="./0/cat.1.jpg" alt="demo cat" title="demo cat" height="64" width="64">
-<img src="./1/dog.2.jpg" alt="demo dog" title="demo dog" height="64" width="64"><br>
+Sample Image of Cats [0] and Dogs [1]:<br>
+<img src="./0/cat.1.jpg" alt="demo cat" title="demo cat" height="128" width="128">
+<img src="./1/dog.2.jpg" alt="demo dog" title="demo dog" height="128" width="128"><br>
 
 
 ## 3.Demo
@@ -25,7 +25,7 @@ The video shows the actual execution with Jax and Flax.
 
 https://user-images.githubusercontent.com/52090852/182778858-e51c2f0c-5f53-4ffb-85e0-b63ed5130408.mp4
 
-## 3.Results
+## 4.Results
 | Model | Total Time | Epoch | Test Accuracy |
 |:---|:---:|:---:|---:|
 |Flax & Jax | 1200 sec | 2 | 0.609 |
