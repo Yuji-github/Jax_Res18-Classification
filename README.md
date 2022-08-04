@@ -28,11 +28,11 @@ https://user-images.githubusercontent.com/52090852/182778858-e51c2f0c-5f53-4ffb-
 | Model | Total Time | Epoch | Test Accuracy |
 |:---|:---:|:---:|---:|
 |Flax & Jax | 1200 sec | 2 | 0.609 |
-|Flax & Jax | 130 sec | 5 | 0.662 |
+|Flax & Jax | 130 sec | 5 | 0.682 |
 
 There is a huge gap between the results. The first row shows that the total time is over 1200 seconds. On the other hand, the second row shows that the total time is around 130 seconds. This is Flax and Jax using Just-In-Time compilation. Thus, the first row (the first run) transferred all the data on the GPU. Then, from the second execution, the data stays on the GPU and reduces the total execution time.
 
 
 ## 5.Issues
 The experiment uses around 160 MB of data for training. However, the usage of the RAM on the GPU achieved 13.99 GB (assume the maximum) easily when I used ResNet18. Thus, we need to be careful of the usage when we work with Flax and Jax, and we should keep in mind that the first execution will be slower in our minds.  
-<img src="./src/gpu.png" alt="demo gpu" title="demo gpu" height="256" width="256">
+<img src="./src/gpu.png" alt="demo gpu" title="demo gpu" height="256" width="512">
